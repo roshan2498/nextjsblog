@@ -34,14 +34,14 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #5cf0e8;
   text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .title {
@@ -111,6 +111,20 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.navigate{
+  color: #5cf0e8;
+}
+
+.navigate:hover{
+  background-color: #5cf0e8;
+  padding: 10px;
+  color: #333;
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin: auto;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
